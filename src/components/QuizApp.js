@@ -173,6 +173,15 @@ class QuizApp extends Component {
 
   render() {
 
+
+
+  //   <Router>
+  //   <Security {...config}>
+  //     <Route path='/' exact={true} component={Home}/>
+  //     <Route path='/implicit/callback' component={ImplicitCallback}/>
+  //   </Security>
+  // </Router>
+
     // this.state.user ? ( <Home /> ) :   (  <Login /> )
     const { step, questions, userAnswers, totalQuestions, score, modal } = this.state;
 
@@ -196,8 +205,13 @@ class QuizApp extends Component {
         />
         { modal.state === 'show' && <Modal modal={modal} /> }
       </Fragment>
-    );
-   }
   }
+
+
+  
+
+
+  
+}
 
 export default QuizApp;
