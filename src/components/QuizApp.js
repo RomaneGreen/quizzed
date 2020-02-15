@@ -6,7 +6,7 @@ import Results from './Results';
 import shuffleQuestions from '../helpers/shuffleQuestions';
 import QUESTION_DATA from '../data/quiz-data';
 import fire from './config/Fire';
-import Home from './Home';
+//import Home from './Home';
 import Login from './Login';
 import '@firebase/firestore'
 
@@ -205,6 +205,7 @@ class QuizApp extends Component {
         />
         { modal.state === 'show' && <Modal modal={modal} /> }
       </Fragment>
+      )
   }
 
 

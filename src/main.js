@@ -4,6 +4,7 @@ import QuizApp from './components/QuizApp';
 import './style.css';
 
 render(
+
   <QuizApp totalQuestions={10} />,
   document.getElementById('app')
 );
